@@ -15,8 +15,8 @@ with st.sidebar:
 
 col1, col2, col3 = st.columns(3)
 # Load the model
-load = open('model.pkl', 'rb')
-model = pickle.load(load)
+with open('model.pkl', 'rb') as load:
+    model = pickle.load(load)
 
 
 # Imputer (you need to define this based on how you handled missing values during model training)
