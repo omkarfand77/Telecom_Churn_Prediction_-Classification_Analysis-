@@ -6,9 +6,14 @@ import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
-st.title('TELECOMMUNICATION CHURN PREDICTION')
-with st.sidebar:
-    st.write('''Customer churn is a big problem for telecommunications companies. 
+st.title(':red[TELECOMMUNICATION CHURN PREDICTION]')
+with st.container():
+    with st.sidebar:
+        st.header('**:red[TELECOMMUNICATION CHURN PREDICTION]**',  divider='rainbow')
+        st.write('MR. OMKAR SUNILDATT FAND')
+        st.page_link("http://www.linkedin.com/in/mr-omkar-s-fand-43755149/", label=":blue[LinkedIn]")
+        st.page_link("http://www.gmail.com/", label="E-mail: omkarfand77@gmail.com")
+        st.write('''Customer churn is a big problem for telecommunications companies. 
             Indeed, their annual churn rates are usually higher than 10%.This is a classification 
             project since the variable to be predicted is binary (churn or loyal customer). 
             The goal here is to model churn probability, conditioned on the customer features.''')
