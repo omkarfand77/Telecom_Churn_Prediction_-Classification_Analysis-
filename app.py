@@ -11,7 +11,7 @@ with st.container():
     with st.sidebar:
         st.header('_*:red[TELECOMMUNICATION CHURN PREDICTION]*_',  divider='rainbow')
         st.write('MR. OMKAR SUNILDATT FAND')
-        st.page_link("http://www.linkedin.com/in/mr-omkar-s-fand-43755149", label=":blue[LinkedIn]")
+        st.page_link("https://www.linkedin.com/in/mr-omkar-s-fand-043755149", label=":blue[LinkedIn]")
         st.page_link("http://www.gmail.com/", label="E-mail: omkarfand77@gmail.com")
         st.write('''Customer churn is a big problem for telecommunications companies. 
             Indeed, their annual churn rates are usually higher than 10%.This is a classification 
