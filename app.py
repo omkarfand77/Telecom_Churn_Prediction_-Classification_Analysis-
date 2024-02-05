@@ -6,10 +6,10 @@ import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
-st.title(':red[TELECOMMUNICATION CHURN PREDICTION]')
+st.title('_*:red[TELECOMMUNICATION CHURN PREDICTION]*_')
 with st.container():
     with st.sidebar:
-        st.header('**:red[TELECOMMUNICATION CHURN PREDICTION]**',  divider='rainbow')
+        st.header('_*:red[TELECOMMUNICATION CHURN PREDICTION]*_',  divider='rainbow')
         st.write('MR. OMKAR SUNILDATT FAND')
         st.page_link("http://www.linkedin.com/in/mr-omkar-s-fand-43755149/", label=":blue[LinkedIn]")
         st.page_link("http://www.gmail.com/", label="E-mail: omkarfand77@gmail.com")
