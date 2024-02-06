@@ -26,11 +26,11 @@ with st.container():
         st.subheader('Steps Involved', divider='rainbow')
         st.write('''
 
-    1.**Exploratory Data Analysis (EDA) and Preprocessing:** Understand data patterns and clean/preprocess the dataset.
-    2.**Feature Engineering and Selection:** Create new features and select relevant ones. Scale the data and handle dependent/independent features.
-    3.**Model Building:** Utilize the Random Forest Classifier algorithm to construct a predictive model.
-    4.**Model Evaluation:** Achieve a model accuracy of 95%.
-    5.**Deployment:** Deploy the model using the Streamlit framework for real-time application.''')
+    1. **Exploratory Data Analysis (EDA) and Preprocessing:** Understand data patterns and clean/preprocess the dataset.
+    2. **Feature Engineering and Selection:** Create new features and select relevant ones. Scale the data and handle dependent/independent features.
+    3. **Model Building:** Utilize the Random Forest Classifier algorithm to construct a predictive model.
+    4. **Model Evaluation:** Achieve a model accuracy of 95%.
+    5. **Deployment:** Deploy the model using the Streamlit framework for real-time application.''')
         st.subheader('Tools & Librares Used', divider='rainbow')
         st.write('Pandas, Numpy, Scikit-Learn (Classification Algorithms), Matplotlib, Seaborn, Streamlit')
 
