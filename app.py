@@ -10,13 +10,29 @@ st.title('_*:red[TELECOMMUNICATION CHURN PREDICTION]*_')
 with st.container():
     with st.sidebar:
         st.header('_*:red[TELECOMMUNICATION CHURN PREDICTION]*_',  divider='rainbow')
-        st.write('MR. OMKAR SUNILDATT FAND')
+        st.write('**MR. OMKAR SUNILDATT FAND**')
         st.page_link("https://www.linkedin.com/in/mr-omkar-s-fand-043755149", label=":blue[LinkedIn]")
-        st.page_link("http://www.gmail.com/", label="E-mail: omkarfand77@gmail.com")
+        st.page_link("http://www.gmail.com/", label=":blue[E-mail: omkarfand77@gmail.com]")
+        st.subheader('Objective', divider='rainbow')
         st.write('''Customer churn is a big problem for telecommunications companies. 
             Indeed, their annual churn rates are usually higher than 10%.This is a classification 
             project since the variable to be predicted is binary (churn or loyal customer). 
             The goal here is to model churn probability, conditioned on the customer features.''')
+        st.subheader('Dataset Features', divider='rainbow')
+        st.write('''The dataset includes features such as state, area code, account length, voice plan, 
+        voice messages, international plan, international minutes, international calls, international charge, 
+        day minutes, day calls, day charge, evening minutes, evening calls, evening charge, night minutes, 
+        night calls, night charge, customer service calls, and churn status.''')
+        st.subheader('Steps Involved', divider='rainbow')
+        st.write('''
+
+    1.**Exploratory Data Analysis (EDA) and Preprocessing:** Understand data patterns and clean/preprocess the dataset.
+    2.**Feature Engineering and Selection:** Create new features and select relevant ones. Scale the data and handle dependent/independent features.
+    3.**Model Building:** Utilize the Random Forest Classifier algorithm to construct a predictive model.
+    4.**Model Evaluation:** Achieve a model accuracy of 95%.
+    5.**Deployment:** Deploy the model using the Streamlit framework for real-time application.''')
+        st.subheader('Tools & Librares Used', divider='rainbow')
+        st.write('Pandas, Numpy, Scikit-Learn (Classification Algorithms), Matplotlib, Seaborn, Streamlit')
 
 col1, col2, col3 = st.columns(3)
 # Load the model
