@@ -28,5 +28,5 @@ The model is selected for deployment and made pickle.
 
 ## ***Deployment***
 
-`[app_Link]`(https://telecommunication-churn-prediction-classificationanalysis.streamlit.app/)
+[app_Link](https://telecommunication-churn-prediction-classificationanalysis.streamlit.app/)
 The model is deloyed with framework streamlit for real time prediction.
